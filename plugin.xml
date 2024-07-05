@@ -1,0 +1,32 @@
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="scandit-cordova-datacapture-id-voided-detection" version="6.25.0">
+    <name>ScanditIdVoidedDetection</name>
+    <engines>
+        <engine name="cordova-ios" version=">=5.0.0" />
+        <engine name="cordova-android" version=">=10.0.0" />
+    </engines>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="ScanditIdVoidedDetection">
+                <param name="ios-package" value="ScanditIdVoidedDetection" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/ScanditIdVoidedDetection-Bridging-Header.h" type="BridgingHeader" />
+        <source-file src="src/ios/ScanditIdVoidedDetection.swift" />
+        <podspec>
+            <pods use-frameworks="true">
+                <pod name="ScanditIdVoidedDetection" spec="= 6.25.0" />
+            </pods>
+        </podspec>
+    </platform>
+    <platform name="android">
+        <config-file parent="/*" target="config.xml">
+            <feature name="ScanditIdVoidedDetection">
+                <param name="android-package" value="com.scandit.datacapture.cordova.idvoideddetection.ScanditIdVoidedDetection" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/ScanditIdVoidedDetection.kt" target-dir="kotlin/com/scandit/datacapture/cordova/idvoideddetection" />
+        <framework custom="true" src="src/android/build.gradle" type="gradleReference" />
+        <hook src="src/hooks/support-kotlin.js" type="after_plugin_install" />
+    </platform>
+</plugin>

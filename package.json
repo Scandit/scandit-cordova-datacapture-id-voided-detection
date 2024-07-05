@@ -1,0 +1,31 @@
+{
+  "name": "scandit-cordova-datacapture-id-voided-detection",
+  "version": "6.25.0",
+  "description": "Scandit Data Capture SDK for Cordova",
+  "license": "Apache-2.0",
+  "private": false,
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.js --bundleConfigAsCjs",
+    "test": "npm run lint",
+    "lint": "echo 'scandit-cordova-datacapture-id-voided-detection does not have TS files to lint'",
+    "coverage": "echo 'scandit-cordova-datacapture-id-voided-detection does not have TS files to lint'",
+    "clear-jest-cache": "jest --clearCache || true",
+    "clean": "echo 'scandit-cordova-datacapture-id-voided-detection does not have TS files to lint'",
+    "clean-all": "echo 'scandit-cordova-datacapture-id-voided-detection does not have TS files to lint'"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "cordova": {
+    "id": "scandit-cordova-datacapture-id-voided-detection",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}
