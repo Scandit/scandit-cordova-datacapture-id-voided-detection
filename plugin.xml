@@ -1,4 +1,4 @@
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="scandit-cordova-datacapture-id-voided-detection" version="6.27.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="scandit-cordova-datacapture-id-voided-detection" version="6.27.1">
     <name>ScanditIdVoidedDetection</name>
     <engines>
         <engine name="cordova-ios" version=">=5.0.0" />
@@ -15,7 +15,7 @@
         <source-file src="src/ios/ScanditIdVoidedDetection.swift" />
         <podspec>
             <pods use-frameworks="true">
-                <pod name="ScanditIdVoidedDetection" spec="= 6.27.0" />
+                <pod name="ScanditIdVoidedDetection" spec="= 6.27.1" />
             </pods>
         </podspec>
     </platform>
