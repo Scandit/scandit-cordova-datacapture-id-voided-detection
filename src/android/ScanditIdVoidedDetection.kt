@@ -8,4 +8,4 @@ package com.scandit.datacapture.cordova.idvoideddetection
 
 import org.apache.cordova.CordovaPlugin
 
-class ScanditIdVoidedDetection : CordovaPlugin() {}
+class ScanditIdVoidedDetection : CordovaPlugin()
