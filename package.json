@@ -1,6 +1,6 @@
 {
   "name": "scandit-cordova-datacapture-id-voided-detection",
-  "version": "7.5.2",
+  "version": "8.1.0",
   "description": "Scandit Data Capture SDK for Cordova",
   "license": "Apache-2.0",
   "private": false,
@@ -19,8 +19,14 @@
     "clean-all": "echo 'scandit-cordova-datacapture-id-voided-detection does not have TS files to lint'"
   },
   "dependencies": {
+    "scandit-cordova-datacapture-barcode": "8.1.0",
+    "scandit-cordova-datacapture-core": "8.1.0",
+    "scandit-cordova-datacapture-parser": "8.1.0",
+    "scandit-datacapture-frameworks-barcode": "8.1.0",
+    "scandit-datacapture-frameworks-core": "8.1.0",
+    "scandit-datacapture-frameworks-id": "8.1.0",
+    "scandit-datacapture-frameworks-parser": "8.1.0"
   },
-  "devDependencies": {},
   "cordova": {
     "id": "scandit-cordova-datacapture-id-voided-detection",
     "platforms": [
