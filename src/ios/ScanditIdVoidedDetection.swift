@@ -1,3 +1,2 @@
-
 @objc(ScanditIdVoidedDetection)
-public class ScanditIdVoidedDetection: CDVPlugin { }
+public class ScanditIdVoidedDetection: CDVPlugin {}
