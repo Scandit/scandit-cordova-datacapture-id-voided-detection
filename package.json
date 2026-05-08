@@ -1,6 +1,6 @@
 {
   "name": "scandit-cordova-datacapture-id-voided-detection",
-  "version": "7.6.14",
+  "version": "6.28.10",
   "description": "Scandit Data Capture SDK for Cordova",
   "license": "Apache-2.0",
   "private": false,
